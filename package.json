@@ -22,9 +22,12 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
+    "bluebird": "^2.9.34",
     "js-md4": "^0.1.1",
+    "lodash": "^3.10.1",
     "node-uuid": "^1.4.3",
-    "solr-client": "git+ssh://git@github.com:nelovishk/solr-node-client.git"
+    "request": "^2.60.0",
+    "solr-client": "nelovishk/solr-node-client"
   },
   "devDependencies": {
     "captains-log": "~0.11.0",
